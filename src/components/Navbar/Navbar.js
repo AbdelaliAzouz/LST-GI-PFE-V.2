@@ -19,7 +19,7 @@ const Navbar = () => {
                     onClick={() => setOpenMenu(!openMenu)}
                     id="burgerMenu"
                     className={
-                        openMenu ? "fas fa-times fa-lg" : "fas fa-align-right fa-lg"
+                        openMenu ? "fas fa-times fa-lg" : "fas fa-align-right fa-lg" 
                     }
                 ></i>
             </Container>
@@ -44,7 +44,7 @@ const styles = css`
     #burgerMenu {
       cursor: pointer;
       display: none;
-      color: #fff;
+      color: #0A4398;
     }
   }
   @media (max-width: 1200px) {

@@ -55,7 +55,7 @@ useEffect(() => { //Cette fonction remplace le components 'componentDidMount'
                 </div>
             </Container>
             <div css={styles2}>
-            <Particles
+            <Particles css={styleParticles}
                 params={{
                     "particles": {
                         "number": {
@@ -98,7 +98,18 @@ const styles2 = css`
   color: blue;
   `
 
+const styleParticles = css`
+  width: 100%;
+  @media(max-width: 868px) {
+        width:0%;
+    }
 
+  @media(min-width: 869px) {
+        width:100%;
+    }
+
+  `
+  
 const styles = css`
   width: 100%;
   min-height: 100vh;

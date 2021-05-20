@@ -8,7 +8,6 @@ import Footer from './components/Footer/Footer';
 import firebase from './components/utils/FirebaseConfig'
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 import { Route, BrowserRouter as Router} from 'react-router-dom';
-import Inscription from './components/Pages/InscriptionPage/Inscription';
 
 
 const App = () => {  

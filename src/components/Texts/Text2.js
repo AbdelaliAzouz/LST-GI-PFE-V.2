@@ -5,6 +5,9 @@ import Button from "../Global/Button/Button";
 
 // Background Image
 import bg7 from "../../images/bg7.jpg";
+import bg7background from "../../images/bg7background.jpg";
+import bg7png from "../../images/bg7png.png";
+import bg3 from "../../images/bg3.jpg";
 
 const Sale2 = () => {
     return (
@@ -21,6 +24,7 @@ const Sale2 = () => {
                     <Button contenu="Joindre un équipe" />
                 </div>
             </Container>
+            <img  src={bg7png} /> 
         </section>
     )
 }
@@ -29,6 +33,9 @@ const styles = css`
     width: 100%;
     background: url('${bg7}') no-repeat center/cover;
     padding: 200px 0;
+    img{
+        width:0%;
+    }
     .container {
         display: flex;
         max-width: 1200px;
@@ -43,6 +50,32 @@ const styles = css`
                 max-width: 500px;
                 color: black;
             }
+        }
+    }
+
+    @media(max-width: 768px) {
+        width: 100%;
+        background: url('${bg7background}') no-repeat center/cover;
+        padding: 200px 0;
+        .container {
+            display: flex;
+            max-width: 1200px;
+            justify-content: flex-end;
+            .wrapper {
+                h3 {
+                    color: black;
+                    font-size: 2.6rem;
+                }
+                p {
+                    padding: 10px 0px 0;
+                    max-width: 500px;
+                    color: black;
+                }
+            }
+        }
+        img{
+            width:100%;
+            margin-top:100px;
         }
     }
 `;

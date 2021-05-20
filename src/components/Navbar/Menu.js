@@ -36,14 +36,15 @@ const styles = css`
       transition: opacity 700ms ease-in-out;
     }
     &:hover {
-      color: #13087A;
-      font-weight: 600;
+      color: #000;
+      font-weight: 650;
       &::after {
         opacity: 1;
       }
     }
   }
   @media (max-width: 1225px) {
+    color:#fff;
     padding: 80px 40px;
     z-index: 30;
     position: absolute;
@@ -55,7 +56,7 @@ const styles = css`
     flex-direction: column;
     width: 100%;
     max-width: 320px;
-    background: #060706;
+    background-color:#342f69;
     transition: left 600ms ease-in-out, opacity 600ms ease-in-out;
     &.hidden {
       left: -500px;
@@ -66,10 +67,11 @@ const styles = css`
       font-size: 25px;
       text-align: left;
       user-select: none;
+      color:#fff;
       &:hover {
-        color: #fff;
+        color: #d5d3e8;
         &::after {
-          opacity: 0;
+          opacity:0;
         }
       }
     }
