@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
 import logo from "../../images/UaeLogo.png";
@@ -11,6 +12,7 @@ const NavbarLogo = () => {
 
 const styles = css`
 width:110px;  
+margin-top:10px;
 `
 
 export default NavbarLogo;

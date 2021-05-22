@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/react'
 import { useState } from "react";
@@ -51,7 +52,7 @@ const styles = css`
     .container {
       max-width: 1200px;
       button {
-        display: none;
+        padding:10px;
       }
       #burgerMenu {
         display: block;
