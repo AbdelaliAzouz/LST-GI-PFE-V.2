@@ -35,7 +35,7 @@ return(
       </div>
    </span> 
    ) : ( 
-   <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} /> 
+   <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()}  /> 
 )} 
 </div>
 )

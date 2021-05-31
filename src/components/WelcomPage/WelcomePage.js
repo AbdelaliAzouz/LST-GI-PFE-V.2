@@ -4,7 +4,7 @@ import { jsx } from '@emotion/react'
 import Container from "../Global/Container";
 import {button} from 'bootstrap/dist/css/bootstrap.min.css'
 import Particles from 'react-particles-js';
-import './AccueilStyle.css'
+import './WelcomePage.css'
 import Login from '../Login/Login'
 
 const Hero = () => {

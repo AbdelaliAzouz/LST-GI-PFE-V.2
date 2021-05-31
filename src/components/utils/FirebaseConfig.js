@@ -12,7 +12,6 @@ import 'firebase/auth';
     appId: "1:977072052019:web:245879e6f73c7354bad046"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
+/* firebase.initializeApp(firebaseConfig); */
 
 export default firebase; 
